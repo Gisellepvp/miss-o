@@ -2,8 +2,7 @@ const caixaPrincipal = document.querySelector(".caixa-principal");
 const caixaPerguntas = document.querySelector(".caixa-perguntas");
 const caixaAlternativas = document.querySelector(".caixa-alternativas");
 const caixaResultado = document.querySelector(".caixa-resultado");
-const textoResultdo = document.querySelector(".texto-resultado");
-
+const textoResultado = document.querySelector(".texto-resultado");
 const perguntas = [
     {
     enunciado: "Qual é uma prática benéfica para promover o bem-estar físico e mental tanto em humanos quanto em animais de estimação?",
@@ -57,4 +56,4 @@ function mostraResultado(){
     caixaPerguntas.textContent = "Em 2030...";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
-}    
+} 
